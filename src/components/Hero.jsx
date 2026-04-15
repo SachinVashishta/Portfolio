@@ -1,4 +1,4 @@
-import heroImg from '../assets/hero.png';
+
 
 const Hero = () => {
   return (
@@ -12,9 +12,7 @@ const Hero = () => {
           <a href="#contact" className="btn btn-secondary">Contact Me</a>
         </div>
       </div>
-      <div className="hero-image">
-        <img src={heroImg} alt="Hero" />
-      </div>
+      
     </section>
   );
 };
